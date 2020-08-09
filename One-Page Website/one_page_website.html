@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Restoration</title>
+		<link rel="stylesheet" href="./css/one_page_website.css">
+		<script src="./JS/one_page_website.js"></script>
+	</head>
+	<body>
+	
+	<nav style="text-align:center">
+		<a href="one_page_website.html">HOME</a>|
+		<a href="furniture.html">FURNITURE PICTURES</a>|
+		<a href="furniture_video.html">RESTORATION EXAMPLE VIDEO</a>
+	</nav>
+	
+	<!--Home -->
+		<div id="home">
+					<header>
+					<h1 style="text-align:center">Refurbishing Old Furniture</h1>
+						<p>Tips on making old things new again.</p>
+					</header>
+		
+				</div>
+		<!--END HOME-->
+
+		
+	
+
+		<!-- Images used to open the lightbox -->
+<div class="row">
+	<div class="column">
+	  <img src="./one_page_images/thumb_one_page/thumbnail_25.jpg" style="width:100%" onclick="openModal();currentSlide(1)"  class="hover-shadow cursor">
+	</div>
+	<div class="column">
+	  <img src="./one_page_images/thumb_one_page/thumbnail_30.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+	</div>
+	<div class="column">
+		<img src="./one_page_images/thumb_one_page/thumbnail_35.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+	  </div>
+	  <div class="column">
+		<img src="./one_page_images/thumb_one_page/thumbnail_40.jpg" style="width:100%" onclick="openModal();currentSlide(4)"  class="hover-shadow cursor">
+	  </div>
+	
+  </div>
+  
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+  
+	  <div class="mySlides">
+		<div class="numbertext">1 / 4</div>
+		<img src="./one_page_images/thumb_one_page/thumbnail25.jpg" style="width:100%;">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">2 / 4</div>
+		<img src="./one_page_images/thumb_one_page/thumbnail30.jpg" style="width:100%;">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">3 / 4</div>
+		<img src="./one_page_images/thumb_one_page/thumbnail35.jpg" style="width:100%;">
+	  </div>
+	  
+	  <div class="mySlides">
+		<div class="numbertext">4 / 4</div>
+		<img src="./one_page_images/thumb_one_page/thumbnail40.jpg" style="width:100%;">
+	  </div>
+  
+	 
+  
+	  <!-- Next/previous controls -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+	  <!-- Caption text -->
+	  <div class="caption-container">
+		<p id="caption"></p>
+	  </div>
+  
+	  <!-- Thumbnail image controls -->
+	  <div class="column">
+		<img class="demo" src="./one_page_images/thumb_one_page/thumbnail_25.jpg" style="width:100%;" onclick="currentSlide(1)" alt="Old Dresser">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="./one_page_images/thumb_one_page/thumbnail_30.jpg"  style="width:100%;" onclick="currentSlide(2)" alt="Cabinet">
+	  </div>
+	  <div class="column">
+		<img class="demo" src="./one_page_images/thumb_one_page/thumbnail_35.jpg" style="width:100%;" onclick="currentSlide(3)" alt="Dresser">
+	  </div>
+	  <div class="column">
+		<img class="demo" src="./one_page_images/thumb_one_page/thumbnail_40.jpg" style="width:100%;" onclick="currentSlide(4)" alt="Table">
+	  </div>
+	  
+	  </div>
+	</div>
+	
+  
+	<h1 style="text-align:center">Restoration Video</h1>
+		
+		<main>
+		
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/sGYggaY2oDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		</main>
+				
+		<!--Contact Info -->
+		<section>
+			<div id="contact">
+				
+					<h1></h1>
+					<div class="information">
+						<h2><span>Give one of our experts a call</span>
+							<br>We will make old things new again!
+						</h2>
+						<p>
+						Please provide us with your basic contact information.
+						</p>
+						
+							<form action="" method="post">
+								<input class="contact" type="text" value="First Name">
+								<input class="contact" type="text" value="Last Name">
+								<input class="contact" type="text" value="Email Address">
+								<input class="contact" type="text" value="Phone Number">	
+							</form>
+						
+					</div>
+				
+			</div>
+		</section>
+		<!--END CONTACT INFO-->
+		
+		<!--FOOTER -->
+		<div>
+		www.restorationandrenew.com &nbsp;|&nbsp; &copy; 2020
+		</div>
+		<!--END FOOTER-->
+		
+	</body>
+</html>
